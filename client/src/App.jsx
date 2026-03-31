@@ -38,7 +38,7 @@ function App() {
       setLoading(true);
 
 
-      const response = await fetch("http://localhost:5001/generate-post", {  //send requests to backend
+      const response = await fetch("https://linkedin-post-generator-8pu3.onrender.com/generate-post", {  //send requests to backend
         method: "POST",
         headers: {
           "Content-Type": "application/json",
